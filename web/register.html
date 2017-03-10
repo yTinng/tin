@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Register</title>
+    <link rel="stylesheet" href="../css/register_login.css">
+    <link rel="stylesheet" href="../css/register.css">
+    <link rel="icon" href="../images/favicon.ico">
+    <script src=../js/register.js></script>
+</head>
+<body>
+<!--头部 S-->
+<div class="logo center clearfix">
+    <div class="logo_l fl">
+        <a href="javascript:">京 东</a>
+        <h2>欢 迎 注 册</h2>
+    </div>
+    <div class="logo_r fr">
+            <p>已有账号 <a href="javascript:"> 请登录</a></p>
+        </div>
+</div>
+<!--头部 E-->
+<!--分割线 S-->
+<div class="logo_hr">
+</div>
+<!--分割线 E-->
+<!--内容 S-->
+<div class="content center clearfix">
+    <div class="con_l fl">
+        <form action="" method="post" onsubmit="return checkform()">
+            <div class="yhm clearfix">
+                <label>用 户 名</label>
+                <input type="text" id="userName" class="userName" name="userName" placeholder="您的账户和用户名" onblur =userNameT()>
+                <b id="userNameTips"></b>
+            </div>
+            <div class="yhm clearfix">
+                <label>设 置 密 码</label>
+                <input type="password" id="passWord" class="passWord" name="passWord" placeholder="建议至少使用两种字符组合" onblur=passWordT()>
+                <b id= "passWordTips"></b>
+            </div>
+            <div class="yhm clearfix">
+                <label>确 认 密 码</label>
+                <input type="password" id="repassWord" class="repassWord" name="repassWord" placeholder="请再次输入密码" onblur=repassWordT()>
+                <b id= "repassWordTips"></b>
+            </div>
+            <div class="address clearfix">
+                <label>中国 + 86
+                    <i>
+                        <s>◇</s>
+                    </i>
+                </label>
+                <input type="text" id="address" class="addressin" name="address" placeholder="建议使用常用手机">
+            </div>
+            <div class="yxyzm">
+            <p>或 <a href="javacript:">邮箱验证</a></p>
+            </div>
+            <div class="yzm clearfix">
+                <label>验 证 码</label>
+                <input type="text" id="set_codeall" class="set_codeall" name="set_codeall" placeholder="请输入验证码">
+                <a href="javascript:">
+                    <img src="../Register_images/validate.jpg">
+                </a>
+            </div>
+            <div class="yzm ">
+                <label>手机验证码</label>
+                <input type="text" id="set_code" class="set_code" name="set_code" placeholder="请输入手机验证码">
+                <input type=button value="获取验证码" class="btn_y">
+            </div>
+            <div class="checkit">
+                <input type="checkbox" checked="checked" class="checkbox">
+                <span>我已阅读并同意<a href="javascript:">《京东用户注册写于》</a></span>
+            </div>
+            <div class="yhm clearfix">
+            <input type="button" value="立即注册" class="btn_signup" >
+            </div>
+        </form>
+    </div>
+    <div class="con_r fr">
+        <img src="../Register_images/phone.jpg">
+        <p class=bb1><b></b><a href="javascript:">企业用户注册</a></p>
+        <p class=bb2><b></b><a href="javascript:">INTERNATIONAL
+            CUSTOMERS</a></p>
+    </div>
+</div>
+<!--内容 E-->
+<!--页脚 S-->
+<div class="footer center">
+    <ul class=clearfix>
+        <li><a href="javascript:">关于我们 </a>|</li>
+        <li><a href="javascript:">联系我们 </a>|</li>
+        <li><a href="javascript:">人才招聘 </a>|</li>
+        <li><a href="javascript:">商家入驻 </a>|</li>
+        <li><a href="javascript:">广告服务 </a>|</li>
+        <li><a href="javascript:">手机京东 </a>|</li>
+        <li><a href="javascript:">友情链接 </a>|</li>
+        <li><a href="javascript:">销售联盟 </a>|</li>
+        <li><a href="javascript:">京东社区 </a>|</li>
+        <li><a href="javascript:">京东公益 </a>|</li>
+        <li><a href="javascript:">English Site</a></li>
+    </ul>
+    <p>Copyright <span>&copy;</span> 2004-2016 京东JD.com 版权所有</p>
+</div>
+<!--页脚 E-->
+</body>
+</html>

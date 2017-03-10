@@ -1,0 +1,113 @@
+html,body,p,h1,h2,h3,ul,li,b,a,img,input,dd,dt,dl,i,h1,label{
+    margin: 0;
+    padding: 0;
+}
+img,input{
+    border: 0;
+    outline-style: none;
+}
+.clearfix:before,.clearfix:after{
+    content:"";
+    height: 0;
+    line-height: 0;
+    display: block;
+    visibility: hidden;
+    clear: both;
+}
+.clearfix{
+    zoom: 1;
+}
+.fl{
+    float: left;
+}
+.fr{
+    float: right;
+}
+a{
+    text-decoration: none;
+    color: #333333;
+}
+ul li{
+    list-style: none;
+}
+body{
+    font: normal 400 12px "SimSun","宋体";
+    color: #333333;
+}
+i,s{
+    text-decoration: none;
+    font-style: normal;
+}
+.center{
+    width: 1211px;
+    margin: 0 auto;
+}
+.logo{
+    margin-top: 28px;
+}
+.logo .logo_l,.logo_r{
+    display: inline-block;
+}
+.logo .logo_l a{
+    display: inline-block;
+    width: 160px;
+    height: 45px;
+    text-indent: -1000px;
+    vertical-align: bottom;
+    background:url("../Register_images/icon.png") -1px -1px;
+}
+.logo .logo_l h2{
+    display: inline-block;
+    height: 35px;
+    line-height: 35px;
+    width: 140px;
+    text-align: center;
+    font-family:"微软雅黑";
+    font-weight: normal;
+    border-left: 1px solid #bbb;
+    margin-left: 27px;
+}
+.logo .logo_r p{
+    color: #999;
+    margin-top: 30px;
+    font-family:微软雅黑;
+    font-size:16px;
+}
+.logo .logo_r a{
+    color: #333;
+    font-family:微软雅黑;
+    font-size:16px;
+}
+.logo_hr{
+    margin-top: 15px;
+    height: 10px;
+    width: 100%;
+    background: url("../Register_images/headbg.jpg");
+}
+.footer{
+    margin-top: 15px;
+    margin-bottom: 50px;
+    padding-top: 33px;
+    border-top: 1px solid #E6E6E6;
+    text-align: center;
+}
+.footer ul{
+    margin-left: 198px;
+}
+.footer li{
+    float: left;
+    margin-left: 12px;
+}
+.footer li a{
+    color: #999;
+}
+.footer li a:hover{
+    color: #ff4f3b;
+}
+.footer  p{
+    margin-top: 23px;
+    color: #999;
+}
+.footer  p span{
+    font-family:"微软雅黑";
+}

@@ -1,0 +1,58 @@
+/*
+* @Author: THINKPAD
+* @Date:   2016-10-10 18:37:16
+* @Last Modified by:   THINKPAD
+* @Last Modified time: 2016-10-11 14:25:41
+*/
+html,body,p,h1,h3,ul,li,b,a,img,input,dl,dd,dt{
+	margin:0;
+	padding:0
+}
+/*将img默认的边框去掉*/
+img,input {
+	border: 0;
+}
+/*去掉列表前面的小点*/
+ul {
+	list-style: none;
+}
+/*清除浮动*/
+.clearfix:after {
+	content: "";
+	height: 0;
+	line-height: 0;
+	display: block;
+	visibility: hidden;
+	clear: both;
+}
+.clearfix {
+	zoom: 1;
+}
+/*去掉a标签的默认样式*/
+a {
+	text-decoration: none;
+	color: #444;
+}
+a:hover {
+	color: #0094ff;
+}
+/*设置浮动*/
+.fl {
+	float: left;
+}
+.fr {
+	float: right;
+}
+/*设置页面的字体*/
+body {
+	font: normal 400 12px "SimSun","宋体";
+	color: #444;
+}
+/*去掉h,b,strong默认的加粗*/
+h1,h3,b,strong {
+	font-weight: 400;
+}
+h1,h3 {
+	font-size: 100%;
+}
+/*css的初始化 E*/
