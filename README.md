@@ -1,11 +1,11 @@
 #this is my first static pages
 ###这个是welle文档
->  #####比较Ios版本
+>#####比较Ios版本
 div URL: `GET /api/v1/ios/:version/compare`
 1.是最新版本，返回 “success”
 2.不是最新版本，返回"err"
 >
-> #####比较Android版本
+>#####比较Android版本
 URL: `GET /api/v1/android/:version/compare`
 1.是最新版本，返回 “success”
 2.不是最新版本，返回新版本下载地址
@@ -15,7 +15,7 @@ URL: `GET /api/v1/android/:version/compare`
 }
 ```
 >
-> #####比较Welle版本
+>#####比较Welle版本
 URL: `GET /api/v1/welleversion/:version/compare`
 1.是最新版本，返回 “success”
 2.不是最新版本，返回新版本下载地址
@@ -25,13 +25,13 @@ URL: `GET /api/v1/welleversion/:version/compare`
 }
 ```
 >
-> #####提交日志
+>#####提交日志
 URL: `POST /api/v1/log/commit`
 参数：
 ```javascript
 {
-	"id": 1,
-	"welleVersion": '1.0.0', //welle固件版本
+  "id": 1,
+  "welleVersion": '1.0.0', //welle固件版本
   "appVersion":'1.0.0',//app版本
   "networkType":'http',
   "ip": '127.0.0.1',
@@ -43,7 +43,7 @@ URL: `POST /api/v1/log/commit`
 }
 ```
 >
-> #####版本更新
+>#####版本更新
 URL: ``
 ```javascript
 {
