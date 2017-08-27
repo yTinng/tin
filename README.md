@@ -1,32 +1,32 @@
-#this is my first static pages
-###这个是welle文档
->比较Ios版本
-*div URL: `GET /api/v1/ios/:version/compare`
-1.是最新版本，返回 “success”
-2.不是最新版本，返回"err"
+# this is my first static pages
+### 这个是welle文档
+> 比较Ios版本
+* URL: `GET /api/v1/ios/:version/compare`
+1. 是最新版本，返回 “success”
+2. 不是最新版本，返回"err"
 >
->比较Android版本
-*URL: `GET /api/v1/android/:version/compare`
-1.是最新版本，返回 “success”
-2.不是最新版本，返回新版本下载地址
+> 比较Android版本
+* URL: `GET /api/v1/android/:version/compare`
+1. 是最新版本，返回 “success”
+2. 不是最新版本，返回新版本下载地址
 ```javascript
 {
 	"versionUrl": 'http://127.0.0.1',
 }
 ```
 >
->比较Welle版本
-*URL: `GET /api/v1/welleversion/:version/compare`
-1.是最新版本，返回 “success”
-2.不是最新版本，返回新版本下载地址
+> 比较Welle版本
+* URL: `GET /api/v1/welleversion/:version/compare`
+1. 是最新版本，返回 “success”
+2. 不是最新版本，返回新版本下载地址
 ```javascript
 {
 	"versionUrl": 'http://127.0.0.1',
 }
 ```
 >
->提交日志
-*URL: `POST /api/v1/log/commit`
+> 提交日志
+* URL: `POST /api/v1/log/commit`
 参数：
 ```javascript
 {
@@ -43,8 +43,8 @@
 }
 ```
 >
->版本更新
-*URL: ``
+> 版本更新
+* URL: ``
 ```javascript
 {
 	"id":1,
